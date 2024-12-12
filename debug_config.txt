@@ -1,0 +1,40 @@
+#######
+#
+# Documentation about this file :
+#   Configuration file for wcsimroot_to_root 
+#
+#######
+
+
+###############
+# PATHS SETTINGS
+###############
+
+
+WCSIMROOT_FILE_PATH=/sps/t2k/quach/Simulation/Simu_bis/wcsim_mu_20k_1.root
+
+#RESULT_FILE_PATH=/sps/t2k/eleblevec/BigBrother/RootExplorer/analysis/root_outputs/hk_2022_firstnuPRISM_hybrid_mu_100_1000MeV_20k_raw_1.root
+
+
+RESULT_FILE_PATH=/sps/t2k/eleblevec/SimulationPackage/WCSimTools/playground/debug_live_demo.root
+
+
+
+###############
+# PARAMETERS
+###############
+
+EVENT_TYPE=13
+MAX_HITS_SIG=15000
+#MAX_HITS_BG=2000
+#MIN_DURATION_BG=9.999e5
+
+###############
+# VERBOSE
+###############
+# Must be set to a value (either 0, 1 or 2)
+VERBOSE=2
+
+
+
+
